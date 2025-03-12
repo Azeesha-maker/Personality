@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Jost:ital,wght@0,700;1,700&family=Montserrat+Alternates:wght@400;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="active">PT</a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="test.html">Test</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container1">
+        <div class="left">
+            <div class="heading">
+                <h1>Start the test, get to know yourself</h1>
+            </div>
+            <div class="image">
+                <img src="images/Q1.jpg" alt="Question Image" id="question-image">
+            </div>
+        </div>
+        <div class="container">
+            <div class="test-container">
+                <div class="question-card" id="question-card">
+                    <h1 id="question-text">Question 1: Do you often make others laugh?</h1>
+                    <div class="answer-options">
+                    </div>
+                    <button id="next-btn">Next</button>
+                </div>
+                <div class="result" id="result" style="display: none;">
+                    <h1>Your Personality Type</h1>
+                    <p id="result-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
